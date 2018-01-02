@@ -40,7 +40,7 @@ export class AppComponent implements OnInit {
 
   }
 
-  del(index) {
+  delete(index) {
     this.dataList.splice(index, 1);
   }
 
